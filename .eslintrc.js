@@ -16,7 +16,5 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint'],
-  rules: {
-    semi: [2, 'never'],
-  },
+  rules: {},
 }
