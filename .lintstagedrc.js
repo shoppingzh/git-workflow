@@ -1,3 +1,3 @@
 module.exports = {
-  '*.{js,ts}': ['pnpm format', 'pnpm lint'],
+  '*.{js,ts,jsx,tsx}': ['prettier --write', 'eslint'],
 }
